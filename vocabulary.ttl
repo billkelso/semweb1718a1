@@ -1,0 +1,45 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://dilab77.ionio.gr/sw/p12kour/myvocab#Course>
+    a <http://www.w3.org/2000/01/rdf-schema#Class> .
+
+<http://dilab77.ionio.gr/sw/p12kour/myvocab#Lecture>
+    a <http://www.w3.org/2000/01/rdf-schema#Class> .
+
+<http://dilab77.ionio.gr/sw/p12kour/myvocab#Room>
+    a <http://www.w3.org/2000/01/rdf-schema#Class> .
+
+<http://dilab77.ionio.gr/sw/p12kour/myvocab#Teacher>
+    a <http://www.w3.org/2000/01/rdf-schema#Class> ;
+    <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://xmlns.com/foaf/0.1/Person> .
+
+<http://dilab77.ionio.gr/sw/p12kour/myvocab#ΑΙΘΟΥΣΑ>
+    a rdf:Property ;
+    <http://www.w3.org/2000/01/rdf-schema#Domain> <http://dilab77.ionio.gr/sw/p12kour/myvocab#Lecture> ;
+    <http://www.w3.org/2000/01/rdf-schema#Range> <http://dilab77.ionio.gr/sw/p12kour/myvocab#Room> .
+
+<http://dilab77.ionio.gr/sw/p12kour/myvocab#ΔΙΔΑΣΚΩΝ>
+    a rdf:Property ;
+    <http://www.w3.org/2000/01/rdf-schema#Domain> <http://dilab77.ionio.gr/sw/p12kour/myvocab#Lecture> ;
+    <http://www.w3.org/2000/01/rdf-schema#Range> <http://dilab77.ionio.gr/sw/p12kour/myvocab#Teacher> .
+
+<http://dilab77.ionio.gr/sw/p12kour/myvocab#ΕΝΑΡΞΗ>
+    a rdf:Property ;
+    <http://www.w3.org/2000/01/rdf-schema#Domain> <http://dilab77.ionio.gr/sw/p12kour/myvocab#Lecture> ;
+    <http://www.w3.org/2000/01/rdf-schema#Range> <http://www.w3.org/2001/XMLSchema#time> .
+
+<http://dilab77.ionio.gr/sw/p12kour/myvocab#ΗΜΕΡΑ>
+    a rdf:Property ;
+    <http://www.w3.org/2000/01/rdf-schema#Domain> <http://dilab77.ionio.gr/sw/p12kour/myvocab#Lecture> ;
+    <http://www.w3.org/2000/01/rdf-schema#Range> <http://www.w3.org/2001/XMLSchema#string> .
+
+<http://dilab77.ionio.gr/sw/p12kour/myvocab#ΛΗΞΗ>
+    a rdf:Property ;
+    <http://www.w3.org/2000/01/rdf-schema#Domain> <http://dilab77.ionio.gr/sw/p12kour/myvocab#Lecture> ;
+    <http://www.w3.org/2000/01/rdf-schema#Range> <http://www.w3.org/2001/XMLSchema#time> .
+
+<http://dilab77.ionio.gr/sw/p12kour/myvocab#ΜΑΘΗΜΑ>
+    a rdf:Property ;
+    <http://www.w3.org/2000/01/rdf-schema#Domain> <http://dilab77.ionio.gr/sw/p12kour/myvocab#Lecture> ;
+    <http://www.w3.org/2000/01/rdf-schema#Range> <http://dilab77.ionio.gr/sw/p12kour/myvocab#Course> .
+

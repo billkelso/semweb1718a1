@@ -1,0 +1,16 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX res: <http://dilab77.ionio.gr/sw/p12kour/resource/> 
+<http://dilab77.ionio.gr/sw/p12kour/resource/Διοίκηση%20Ασφάλειας> rdfs:label "Διοίκηση Ασφάλειας Πληροφοριών" .
+<http://dilab77.ionio.gr/sw/p12kour/resource/Ηλεκτρονική> rdfs:label "Ηλεκτρονική Διακυβέρνηση" .
+<http://dilab77.ionio.gr/sw/p12kour/resource/Επεξεργασία> rdfs:label "Επεξεργασία Εικόνας" .
+<http://dilab77.ionio.gr/sw/p12kour/resource/Αποθήκες> rdfs:label "Αποθήκες Δεδομένων" .
+<http://dilab77.ionio.gr/sw/p12kour/resource/Παράλληλος> rdfs:label "Παράλληλος Προγραμματισμός" .
+<http://dilab77.ionio.gr/sw/p12kour/resource/Κοινωνικός%20και> rdfs:label "Κοινωνικός και Σημασιολογικός Ιστός" .
+<http://dilab77.ionio.gr/sw/p12kour/resource/Α.%20ΤΣΩΧΟΥ> rdfs:label "Α. Τσώχου" .
+<http://dilab77.ionio.gr/sw/p12kour/resource/Π.> rdfs:label "Π. Κουρουθανάσης" .
+<http://dilab77.ionio.gr/sw/p12kour/resource/Ι.%20ΚΑΡΥΔΗΣ> rdfs:label "Ι. Καρύδης" .
+<http://dilab77.ionio.gr/sw/p12kour/resource/Θ.%20ΕΞΑΡΧΟΣ> rdfs:label "Θ. Έξαρχος" .
+<http://dilab77.ionio.gr/sw/p12kour/resource/Μ.%20ΣΤΕΦΑΝΙΔΑΚΗΣ> rdfs:label "Μ. Στεφανιδάκης" .
+<http://dilab77.ionio.gr/sw/p12kour/resource/Α.%20ΠΑΤΕΛΗ> rdfs:label "Α. Πατέλη" .
+<http://dilab77.ionio.gr/sw/p12kour/resource/Κ.%20ΚΕΡΜΑΝΙΔΟ> rdfs:label "Κ. Κερμανίδου" .
+<http://dilab77.ionio.gr/sw/p12kour/resource/Κ.ΧΩΡ> rdfs:label "Κ. Χωριανόπουλος" .
